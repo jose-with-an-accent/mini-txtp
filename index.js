@@ -3,7 +3,7 @@ const glob = require('glob');
 const fs = require('fs');
 console.log('running script');
 
-glob("music/*", function (er, files) {
+glob("*", function (er, files) {
   // files is an array of filenames.
   // If the `nonull` option is set, and nothing
   // was found, then files is ["**/*.js"]
